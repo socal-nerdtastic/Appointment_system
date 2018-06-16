@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import sys
 import tkinter as tk
 import tkinter.messagebox
 from menu import Menu
