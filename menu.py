@@ -19,7 +19,7 @@ class Menu():
         self.update_patient = tk.Button(self.master, text="Update/Delete Patients", width=40, height=5, bg="#9999ff",command=self.change_patient)
         self.update_patient.place(x=105, y=250)
         # schedule patient button *** add cmd ***
-        self.schedule_patient = tk.Button(root, text="View Schedule", width=40, height=5, bg="#9999ff",command=self.view_schedule)
+        self.schedule_patient = tk.Button(self.master, text="View Schedule", width=40, height=5, bg="#9999ff",command=self.view_schedule)
         self.schedule_patient.place(x=105, y=370)
     def add_patient(self):
             pass

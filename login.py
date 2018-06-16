@@ -3,7 +3,7 @@
 import sys
 import tkinter as tk
 import tkinter.messagebox
-# ~ from menu import Menu
+from menu import Menu
 
 class Login():
     def __init__(self,master):
@@ -44,7 +44,7 @@ class Login():
             print('success!')
             # destroying all previous Tkinter data in order to create an entirely new layout
             # opens main menu()
-            master = Menu()
+            master = Menu(root)
             my_menu = Menu(self.master)
         else:
             tkinter.messagebox.showinfo("Invalid Credentials", "Answers are in menu")
