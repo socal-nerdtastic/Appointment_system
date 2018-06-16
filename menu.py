@@ -3,8 +3,8 @@
 import tkinter as tk
 
 class Menu(tk.Frame):
-    def __init__(self, master):
-        tk.Frame.__init__(self, master, width=500, height=500, bg='#ffffff')
+    def __init__(self, master=None, **kwargs):
+        tk.Frame.__init__(self, master, bg='#ffffff', **kwargs)
         # after these lines, it becomes a blank slate once again
         # title header
         self.clinic_header = tk.Label(self, text="+ Stephen's Clinic +", font=('arial 30'), fg='red', bg='white')
