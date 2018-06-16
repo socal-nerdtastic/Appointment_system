@@ -3,7 +3,7 @@
 import sys
 import tkinter as tk
 import tkinter.messagebox
-from menu import Menu
+# ~ from menu import Menu
 
 class Login():
     def __init__(self,master):
